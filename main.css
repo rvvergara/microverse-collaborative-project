@@ -136,6 +136,7 @@
   line-height: normal;
   letter-spacing: normal;
   color: #121212;
+  margin-bottom: 0;
 }
 
 .Completed {
@@ -187,4 +188,22 @@
   letter-spacing: 0.5px;
   text-align: center;
   color: #ffffff;
+}
+
+.progress-circle .left-half-clipper .first50-bar {
+  background-color: #379cf6;
+}
+
+/* .progress-circle .left-half-clipper .value-bar {
+  border-color: #379cf6;
+} */
+
+.progress-circle {
+  font-size: 15px;
+  background-color: #E8E8E8;
+  float: left;
+}
+
+.col .percentage {
+  margin-top: 25px;
 }
