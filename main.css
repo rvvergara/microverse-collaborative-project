@@ -1,6 +1,7 @@
 body {
   background-color: #fafafa;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -233,5 +234,5 @@ body {
 }
 
 .card-body {
-  padding: 2rem 3rem .75rem 1.5rem;
+  padding: 2rem 3rem 0.75rem 1.5rem;
 }
