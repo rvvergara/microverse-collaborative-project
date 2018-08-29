@@ -7,16 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Book Store CMS</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="./css-circular-prog-bar.css" media="all">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
             <a class="navbar-brand" href="#">Bookstore CMS</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -34,121 +34,147 @@
                 <div class="user float-right">
                     <i class="fa fa-user" aria-hidden="true"></i>
                 </div>
-        </nav>
+            </div>
+    </nav>
+
+
+
+
+
+    <div class="container">
         <hr class="Line">
         <!-- Lesson Panel 1 start -->
-        <div class="Lesson-Panel">
-            <div class="row">
-                <div class="col">
-                    <h4 class="genre">Action</h4>
-                    <h3 class="title ">The Hunger Games</h3>
-                    <a href="#" class="author">Suzanne Collins</a>
-                    <div class="actions">
-                        <a href="#">Comments</a>
-                        <span class="Line-2"></span>
-                        <a href="#">Remove</a>
-                        <span class="Line-2"></span>
-                        <a href="#">Edit</a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="progress-circle over50 p64">
-                        <div class="left-half-clipper">
-                            <div class="first50-bar"></div>
-                            <!-- <div class="value-bar"></div> -->
+        <div class="card Lesson-Panel">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4 class="genre">Action</h4>
+                        <h3 class="title">The Hunger Games</h3>
+                        <a href="#" class="author">Suzanne Collins</a>
+                        <div class="actions">
+                            <a href="#">Comments</a>
+                            <span class="Line-2"></span>
+                            <a href="#">Remove</a>
+                            <span class="Line-2"></span>
+                            <a href="#">Edit</a>
                         </div>
                     </div>
-                    <div class="percentage">
-                        <p class="Percent-Complete">64%</p>
-                        <p class="Completed">Completed</p>
+                    <div class="col-md-4">
+                        <div class="progress-circle over50 p64">
+                            <div class="left-half-clipper">
+                                <div class="first50-bar"></div>
+                                <!-- <div class="value-bar"></div> -->
+                            </div>
+                        </div>
+                        <div class="percentage">
+                            <p class="Percent-Complete">64%</p>
+                            <p class="Completed">Completed</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <p class="Current-Chapter">
-                        CURRENT CHAPTER
-                    </p>
-                    <p class="Current-Lesson">
-                        Chapter 17
-                    </p>
-                    <button class="Rectangle-2">
-                        UPDATE PROGRESS
-                    </button>
+
+                    <div class="col-md-3">
+                        <p class="Current-Chapter">
+                            CURRENT CHAPTER
+                        </p>
+                        <p class="Current-Lesson">
+                            Chapter 17
+                        </p>
+                        <button type="button" class="btn btn-primary">
+                            UPDATE PROGRESS
+                        </button>
+                    </div>
                 </div>
             </div>
 
         </div>
         <!-- Lesson Panel 2 start -->
-        <div class="Lesson-Panel">
-            <div class="row">
-                <div class="col">
-                    <h4 class="genre">Science Fiction</h4>
-                    <h3 class="title ">Dune</h3>
-                    <a href="#" class="author">Frank Herbert</a>
-                    <div class="actions">
-                        <a href="#"> Comments </a>
-                        <span class="Line-2"></span>
-                        <a href="#"> Remove </a>
-                        <span class="Line-2"></span>
-                        <a href="#"> Edit </a>
+        <div class="card Lesson-Panel">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4 class="genre">Action</h4>
+                        <h3 class="title">The Hunger Games</h3>
+                        <a href="#" class="author">Suzanne Collins</a>
+                        <div class="actions">
+                            <a href="#">Comments</a>
+                            <span class="Line-2"></span>
+                            <a href="#">Remove</a>
+                            <span class="Line-2"></span>
+                            <a href="#">Edit</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="Oval-2">
-
+                    <div class="col-md-4">
+                        <div class="progress-circle over50 p64">
+                            <div class="left-half-clipper">
+                                <div class="first50-bar"></div>
+                                <!-- <div class="value-bar"></div> -->
+                            </div>
+                        </div>
+                        <div class="percentage">
+                            <p class="Percent-Complete">64%</p>
+                            <p class="Completed">Completed</p>
+                        </div>
                     </div>
-                    <p class="Percent-Complete">8%</p>
-                    <p class="Completed">Completed</p>
-                </div>
-                <div class="col">
-                    <p class="Current-Chapter">
-                        CURRENT CHAPTER
-                    </p>
-                    <p class="Current-Lesson">
-                        Chapter 3: "A Lesson Learned"
-                    </p>
-                    <button class="Rectangle-2">
-                        UPDATE PROGRESS
-                    </button>
+                    <div class="col-md-3">
+                        <p class="Current-Chapter">
+                            CURRENT CHAPTER
+                        </p>
+                        <p class="Current-Lesson">
+                            Chapter 17
+                        </p>
+                        <button type="button" class="btn btn-primary">
+                            UPDATE PROGRESS
+                        </button>
+                    </div>
                 </div>
             </div>
 
         </div>
+
         <!-- Lesson Panel 3 start -->
-        <div class="Lesson-Panel">
-            <div class="row">
-                <div class="col">
-                    <h4 class="genre">Economy</h4>
-                    <h3 class="title ">Capital in the Twenty-First Century</h3>
-                    <a href="#" class="author">Suzanne Collins</a>
-                    <div class="actions">
-                        <a href="#"> Comments </a>
-                        <span class="Line-2"></span>
-                        <a href="#"> Remove </a>
-                        <span class="Line-2"></span>
-                        <a href="#"> Edit </a>
+        <div class="card Lesson-Panel">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4 class="genre">Action</h4>
+                        <h3 class="title">The Hunger Games</h3>
+                        <a href="#" class="author">Suzanne Collins</a>
+                        <div class="actions">
+                            <a href="#">Comments</a>
+                            <span class="Line-2"></span>
+                            <a href="#">Remove</a>
+                            <span class="Line-2"></span>
+                            <a href="#">Edit</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="Oval-2">
-
+                    <div class="col-md-4">
+                        <div class="progress-circle over50 p64">
+                            <div class="left-half-clipper">
+                                <div class="first50-bar"></div>
+                                <!-- <div class="value-bar"></div> -->
+                            </div>
+                        </div>
+                        <div class="percentage">
+                            <p class="Percent-Complete">64%</p>
+                            <p class="Completed">Completed</p>
+                        </div>
                     </div>
-                    <p class="Percent-Complete">0%</p>
-                    <p class="Completed">Completed</p>
-                </div>
-                <div class="col">
-                    <p class="Current-Chapter">
-                        CURRENT CHAPTER
-                    </p>
-                    <p class="Current-Lesson">
-                        Introduction
-                    </p>
-                    <button class="Rectangle-2">
-                        UPDATE PROGRESS
-                    </button>
+                    <div class="col-md-3">
+                        <p class="Current-Chapter">
+                            CURRENT CHAPTER
+                        </p>
+                        <p class="Current-Lesson">
+                            Chapter 17
+                        </p>
+                        <button type="button" class="btn btn-primary">
+                            UPDATE PROGRESS
+                        </button>
+                    </div>
                 </div>
             </div>
 
         </div>
+
         <hr class="Line">
         <div class="add-new">
             <h2 class="add-new-title">ADD NEW BOOK</h2>
@@ -164,14 +190,14 @@
                 <button type="submit">ADD BOOK</button>
             </form>
         </div>
-        </div>
-        <!-- JS, Popper.js, and jQuery -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    </div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
