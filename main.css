@@ -236,10 +236,12 @@ body {
 .card-body {
   padding: 2rem 3rem 0.75rem 1.5rem;
 }
+
 .add-new {
   padding: 15px 0px;
   margin-bottom: 30px;
 }
+
 .add-new-title {
   font-family: Montserrat;
   font-size: 20px;
@@ -251,8 +253,43 @@ body {
   color: #888888;
   margin-bottom: 22px;
 }
+
+.add-new-input {
+  height: 45px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e8e8e8;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  color: #c4c4c4;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active,
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-secondary.dropdown-toggle,
 .btn-outline-secondary {
   border-radius: 4px;
   background-color: #ffffff;
   border: solid 1px #e8e8e8;
+  color: #c4c4c4;
+  height: 45px;
+  width: 285px;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-align: left;
+}
+
+.btn-outline-secondary.dropdown-toggle::after {
+  margin-left: 10em;
+  vertical-align: 0;
+  border-top: 12px solid;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
 }
