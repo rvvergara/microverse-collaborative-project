@@ -12,7 +12,7 @@ body {
 .navbar-brand {
   /* width: 240px;
   height: 37px; */
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
@@ -66,7 +66,7 @@ body {
 
 .genre {
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -78,7 +78,7 @@ body {
 }
 
 .title {
-  font-family: RobotoSlab;
+  font-family: "Roboto Slab", serif;
   font-size: 22px;
   font-weight: bold;
   font-style: normal;
@@ -90,7 +90,7 @@ body {
 }
 
 .author {
-  font-family: RobotoSlab;
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -106,7 +106,7 @@ body {
 }
 
 .actions a {
-  font-family: RobotoSlab;
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -150,7 +150,7 @@ body {
 }
 
 .Percent-Complete {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: normal;
   font-style: normal;
@@ -163,7 +163,7 @@ body {
 
 .Completed {
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -175,7 +175,7 @@ body {
 
 .Current-Chapter {
   opacity: 0.5;
-  font-family: RobotoSlab;
+  font-family: "Roboto Slab", serif;
   font-size: 13px;
   font-weight: 300;
   font-style: normal;
@@ -186,7 +186,7 @@ body {
 }
 
 .Current-Lesson {
-  font-family: RobotoSlab;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
@@ -200,7 +200,7 @@ body {
   width: 184px;
   height: 33px;
   border-radius: 3px;
-  font-family: RobotoSlab;
+  font-family: "Roboto Slab", serif;
   font-size: 13px;
   font-weight: 300;
   font-style: normal;
@@ -248,7 +248,7 @@ body {
 }
 
 .add-new-title {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
@@ -264,7 +264,7 @@ body {
   border-radius: 4px;
   background-color: #ffffff;
   border: solid 1px #e8e8e8;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -278,7 +278,7 @@ body {
 .btn-outline-secondary:active,
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .btn-outline-secondary:not(:disabled):not(.disabled):active,
-.show>.btn-outline-secondary.dropdown-toggle,
+.show > .btn-outline-secondary.dropdown-toggle,
 .btn-outline-secondary {
   border-radius: 4px;
   background-color: #ffffff;
@@ -287,7 +287,7 @@ body {
   height: 45px;
   width: 285px;
   font-size: 16px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   text-align: left;
 }
 
